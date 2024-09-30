@@ -1,0 +1,88 @@
+/* login.css */
+
+/* Container for the login form */
+.login-container {
+    max-width: 400px; /* Center the form and limit its width */
+    margin: 0 auto; /* Center the form horizontally */
+    padding: 20px; /* Add padding inside the container */
+    background-color: #ffffff; /* White background for the form */
+    border-radius: 8px; /* Rounded corners for the form */
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow for elevation */
+  }
+  
+  /* Title of the login form */
+  .login-title {
+    font-size: 24px; /* Font size for the title */
+    margin-bottom: 20px; /* Space below the title */
+    color: #333333; /* Dark color for the title text */
+    text-align: center; /* Center the title text */
+  }
+  
+  /* Style for each form group (label and input) */
+  .login-group {
+    margin-bottom: 15px; /* Space below each form group */
+  }
+  
+  /* Label for form fields */
+  .login-group label {
+    display: block; /* Make the label block level */
+    margin-bottom: 5px; /* Space below the label */
+    font-weight: bold; /* Make the label text bold */
+    color: #333333; /* Dark color for the label text */
+  }
+  
+  /* Style for input fields */
+  .login-group input {
+    width: 100%; /* Make input fields full width */
+    padding: 10px; /* Padding inside the input fields */
+    font-size: 16px; /* Font size for the input text */
+    border: 1px solid #ced4da; /* Light border for the input fields */
+    border-radius: 4px; /* Rounded corners for the input fields */
+    box-sizing: border-box; /* Include padding and border in the element's total width and height */
+  }
+  
+  /* Focus state for input fields */
+  .login-group input:focus {
+    border-color: #007bff; /* Blue border on focus */
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.25); /* Blue shadow on focus */
+  }
+  
+  /* Style for the submit button */
+  .login-btn {
+    width: 100%; /* Full width button */
+    background-color: #007bff; /* Blue background for the button */
+    color: #ffffff; /* White text color for the button */
+    padding: 12px; /* Padding inside the button */
+    font-size: 18px; /* Font size for button text */
+    border: none; /* Remove default border */
+    border-radius: 4px; /* Rounded corners for the button */
+    cursor: pointer; /* Pointer cursor on hover */
+    transition: background-color 0.3s ease; /* Smooth background color transition */
+  }
+  
+  /* Hover state for the submit button */
+  .login-btn:hover {
+    background-color: #0056b3; /* Darker blue background on hover */
+  }
+  
+  /* Focus state for the submit button */
+  .login-btn:focus {
+    outline: none; /* Remove default focus outline */
+  }
+  
+  /* Link to navigate to the registration page */
+  .login-link {
+    display: block; /* Make link block level */
+    margin-top: 15px; /* Space above the link */
+    text-align: center; /* Center the link text */
+  }
+  
+  .login-link a {
+    color: #007bff; /* Blue color for the link */
+    text-decoration: none; /* Remove underline from the link */
+  }
+  
+  .login-link a:hover {
+    text-decoration: underline; /* Underline the link on hover */
+  }
+  
